@@ -1,8 +1,8 @@
 ---
 title: "MA 345 Differential Equations and Matrix Methods"
-collection: TA
+collection: teaching
 type: "Undergraduate course"
-permalink: /TA/2022-teaching-1
+permalink: /teaching/2022-teaching-1
 venue: "Embry-Riddle Aeronautical University, Mathematics Department"
 date: 2022-01-01
 location: "Daytona Beach, Florida"
