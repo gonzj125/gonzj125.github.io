@@ -1,6 +1,6 @@
 ---
 title: "MA 345 Differential Equations and Matrix Methods"
-collection: teaching
+collection: TA
 type: "Undergraduate course"
 permalink: /TA/2022-teaching-1
 venue: "Embry-Riddle Aeronautical University, Mathematics Department"
