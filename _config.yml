@@ -1,4 +1,4 @@
-s# Welcome to Jekyll!
+# Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
@@ -7,13 +7,13 @@ s# Welcome to Jekyll!
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jose R. Gonzalez"
+title                    : "Prashant's Homepage"
 title_separator          : "-"
-name                     : &name "Jose R. Gonzalez"
+name                     : &name "Prashant Shekhar"
 description              : &description "personal description"
-url                      : https://gonzj125.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://p-shekhar.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "gonzj125/gonzj125.github.io"
+repository               : "p-shekhar/p-shekhar.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,13 +80,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "Jose R. Gonzalez"
+  name             : "Prashant Shekhar"
   avatar           : "profile.png"
-  bio              : "Aerospace Engineer and Data Scientist"
+  bio              : "Data Scientist and Professor"
   location         : "Daytona Beach, FL"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : #"http://yourfullgooglescholarurl.com"
+  googlescholar    : "https://scholar.google.com/citations?user=Xt9-KRIAAAAJ&hl=en"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -96,13 +96,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "gonzj125"
+  github           : "p-shekhar"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : prashant-shekhar-36586a28/
   orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
@@ -175,7 +175,7 @@ kramdown:
 
 # Collections
 collections:
-  courses:
+  teaching:
     output: true
     permalink: /:collection/:path/
   publications:
@@ -209,10 +209,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _courses
+  # _teaching
   - scope:
       path: ""
-      type: courses
+      type: teaching
     values:
       layout: single
       author_profile: true
@@ -236,7 +236,14 @@ defaults:
       author_profile: true
       share: true
       comment: true
-  
+  # _talks
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+      author_profile: true
+      share: true
 
 # Sass/SCSS
 sass:
@@ -256,7 +263,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-feed
+  #- jekyll-feed
   - jekyll-redirect-from
 # mimic GitHub Pages with --safe
 whitelist:
