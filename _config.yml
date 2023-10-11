@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Prashant's Homepage"
+title                    : "Jose G.'s Homepage"
 title_separator          : "-"
-name                     : &name "Prashant Shekhar"
+name                     : &name "Jose R. Gonzalez"
 description              : &description "personal description"
-url                      : https://p-shekhar.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://gonzj125.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "p-shekhar/p-shekhar.github.io"
+repository               : "gonzj125/gonzj125.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,13 +80,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "Prashant Shekhar"
+  name             : "Jose R. Gonzalez"
   avatar           : "profile.png"
-  bio              : "Data Scientist and Professor"
+  bio              : "Aerospace Engineer and Data Scientist"
   location         : "Daytona Beach, FL"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "https://scholar.google.com/citations?user=Xt9-KRIAAAAJ&hl=en"
+  googlescholar    : #"https://scholar.google.com/citations?user=Xt9-KRIAAAAJ&hl=en"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -96,13 +96,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "p-shekhar"
+  github           : "gonzj125"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : prashant-shekhar-36586a28/
+  linkedin         : #prashant-shekhar-36586a28/
   orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
