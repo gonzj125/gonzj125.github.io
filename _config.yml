@@ -175,7 +175,7 @@ kramdown:
 
 # Collections
 collections:
-  TA:
+  teaching:
     output: true
     permalink: /:collection/:path/
   publications:
@@ -212,7 +212,7 @@ defaults:
   # _TA
   - scope:
       path: ""
-      type: TA
+      type: teaching
     values:
       layout: single
       author_profile: true
